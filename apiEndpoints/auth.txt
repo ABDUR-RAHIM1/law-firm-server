@@ -1,0 +1,9 @@
+
+
+auth 
+| Method | Endpoint               | Description                         | Access     |
+| ------ | ---------------------- | ----------------------------------- | ---------- |
+| POST   | `/api/auth/register`   | Register a new user (client/lawyer) | Public     |
+| POST   | `/api/auth/login`      | Login and get token                 | Public     |
+| PUT    | `/api/auth/update/:id` | Update user info by ID              | Private ⚠️ |
+| DELETE | `/api/auth/delete/:id` | Delete user by ID                   | Private ⚠️ |
