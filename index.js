@@ -21,7 +21,7 @@ app.use(express.json());
 // app.use(cors());
 app.use(
     cors({
-        origin: "https://ainsohayok.vercel.app/", // frontend URL
+        origin: "https://ainsohayok.vercel.app", // frontend URL
         // origin: "http://localhost:3000", // frontend URL
         credentials: true,
     })
